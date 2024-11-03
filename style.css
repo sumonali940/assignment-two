@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.miama-font {
+    font-family: 'Miama', sans-serif;
+    font-style: normal;
+    font-size: 78px;
+    font-weight: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1060px;
+    margin: auto;
+}
+
+.primary {
+    color: #000;
+}
+
+.secondary {
+    color: rgb(230, 83, 60);
+}
+
+header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding-top: 35px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+    list-style-type: none;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+.menu {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 10px;
+}
+
+.active {
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 6px 20px;
+}
+
+.banner-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-image img {
+    width: 349px;
+    height: 500px;
+}
+
+.left-content {
+    max-width: 520px;
+    padding: 20px;
+}
+
+.left-content h1 {
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.left-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+section#banner {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+button.join-now {
+    width: 224px;
+    padding: 16px 40px;
+    box-sizing: border-box;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+button.download-now {
+    width: 224px;
+    padding: 16px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    color: #fff;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.title-area {
+    text-align: center;
+    width: 670px;
+    margin: auto;
+}
+
+.title-area h1 {
+    font-family: Inter;
+    font-weight: 900;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 14px;
+}
+
+.title-area p {
+    font-size: 14px;
+    font-family: Inter;
+    letter-spacing: 0.3px;
+    padding-bottom: 58px;
+}
+
+#change-habits {
+    padding: 100px 0px;
+}
+
+.habits-content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.habits-content-area img {
+    width: 100%;
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+
+.left-runtime {
+    width: 445px;
+}
+
+.left-runtime h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.left-runtime p {
+    padding: 30px 0px;
+    color: gray;
+    font-size: 14px;
+}
+
+.run-time-area {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 185px;
+}
+
+.right-runtime img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    background: url(4);
+}
+
+.habits-content-area p {
+    font-size: 14px;
+    font-family: 'Inter';
+    color: gray;
+}
+
+section#run-time {
+    padding: 100px 0px;
+}
+
+.run-time-area {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 42px 0px;
+}
+
+#training {
+    padding: 100px 0px;
+}
+
+.text-area h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.text-area p {
+    font-family: Inter;
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 58px;
+}
+
+.exercises-grid img {
+    width: 100%;
+    height: 218px;
+}
+
+.exercises-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.first {
+    width: 25%;
+}
+
+.second {
+    width: 50%;
+}
+
+.third {
+    width: 25%;
+}
+
+.four {
+    width: 40%;
+}
+
+.five {
+    width: 25%;
+}
+
+.six {
+    width: 35%;
+}
